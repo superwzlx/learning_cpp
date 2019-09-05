@@ -12,7 +12,7 @@ static int count = 0;
 
 //重载两个函数包装器
 template<typename T, typename F>
-T run(T t, F fun)
+static T run(T t, F fun)
 {
 	//实现计数
 	count++;
@@ -21,17 +21,17 @@ T run(T t, F fun)
 }
 
 template<typename T, typename F>
-T run(T t1, T t2, F fun)
+static T run(T t1, T t2, F fun)
 {
 	return fun(t1, t2);
 }
 
-double fun(double x)
+static double fun(double x)
 {
 	return x*x;
 }
 
-void test()
+void test_93()
 {
 	double a = 9.8;
 	double b = 9;

@@ -18,12 +18,18 @@
     <ClInclude Include="9_03.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="9_04.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="9_03.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9_04.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
