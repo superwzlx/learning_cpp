@@ -148,10 +148,12 @@
   <ItemGroup>
     <ClInclude Include="9_03.h" />
     <ClInclude Include="9_04.h" />
+    <ClInclude Include="9_06.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="9_03.cpp" />
     <ClCompile Include="9_04.cpp" />
+    <ClCompile Include="9_06.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
