@@ -15,14 +15,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="9_03.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="9_04.h">
-      <Filter>源文件</Filter>
+    <ClInclude Include="9_19.h">
+      <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="9_06.h">
-      <Filter>源文件</Filter>
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="9_03.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="9_04.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -36,6 +39,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="9_06.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9_19.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
