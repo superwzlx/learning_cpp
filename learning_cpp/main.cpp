@@ -2,33 +2,14 @@
 #include <thread>
 #include <string>
 #include <vector>
-#include "9_21.h"
+#include "9_25.h"
 
 using namespace std;
 
 int main()
 {
-	//string s;
-	//getline(cin, s);
-	//vector<string> result;
-	//int i = 0;
-	//while(i < s.length())
-	//{
-	//	char* word = "";
-	//	while (s[i] != ' ' && i<s.length());
-	//	{
-	//		word += s[i++];
-	//	}
-	//	result.push_back(word);
-	//	i++;
-	//}
-	////从后遍历出result容器
-	//vector<string>::reverse_iterator iter = result.rbegin();
-	//for (; iter != result.rend(); iter++)
-	//{
-	//	cout << *iter << " ";
-	//}
-	test_921();
+	test_925();
+	
 }
 
 /*
@@ -38,4 +19,5 @@ int main()
 9_19:设计模式，观察者模式，单例模式（没有代码实现）和工厂模式(没有代码实现）
 9_20:stl的一些知识
 9_21:常见的排序算法
+9_25:文件的遍历,只有windows的实现,没有linux
 */

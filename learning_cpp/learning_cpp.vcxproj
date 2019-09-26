@@ -152,6 +152,7 @@
     <ClInclude Include="9_19.h" />
     <ClInclude Include="9_20.h" />
     <ClInclude Include="9_21.h" />
+    <ClInclude Include="9_25.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="9_03.cpp" />
@@ -160,6 +161,7 @@
     <ClCompile Include="9_19.cpp" />
     <ClCompile Include="9_20.cpp" />
     <ClCompile Include="9_21.cpp" />
+    <ClCompile Include="9_25.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
