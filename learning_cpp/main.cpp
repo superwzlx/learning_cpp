@@ -4,12 +4,12 @@
 #include <vector>
 #include "9_25.h"
 
+
 using namespace std;
 
 int main()
 {
 	test_925();
-	
 }
 
 /*
@@ -19,5 +19,5 @@ int main()
 9_19:设计模式，观察者模式，单例模式（没有代码实现）和工厂模式(没有代码实现）
 9_20:stl的一些知识
 9_21:常见的排序算法
-9_25:文件的遍历,只有windows的实现,没有linux
+9_25:文件的遍历
 */

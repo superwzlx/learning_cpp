@@ -1,8 +1,13 @@
-#include "9_25.h"
+#include "你们 9_25.h"
 #include <iostream>
 #include <vector>
-#include <io.h>
+#include <io.h> 
 #include <string>
+//linux中,是调用<dirent.h>,linux中的实现跟windows的思路差不多
+//用struct dirent *dirp代替_finddata_t fileInfo,dirp->d_name和dirp->d_type(文件类型,判断是目录或者文件
+//使用DIR *dp,文件目录指针,dp = opendir(dirname.c_str())
+//然后dirp = readdir(dp),一次读取一个文件名
+
 
 using namespace std;
 
