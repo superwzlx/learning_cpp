@@ -1,4 +1,4 @@
-#include "ÄãÃÇ 9_25.h"
+#include "9_25.h"
 #include <iostream>
 #include <vector>
 #include <io.h> 
